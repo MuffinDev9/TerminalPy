@@ -1,4 +1,6 @@
+packages_call = True
 cmdlist = ["kill", "echo"]
+packages = ["call", "package"]
 
 def kill():
     print("Killing...")
